@@ -1,0 +1,10 @@
+<h1>Who want some cocktails?</h1>
+<h2> ** today's special ** </h2>
+<% @cocktails.each do |cocktail| %>
+    <li>
+      <h3><%= link_to cocktail.name, cocktail_path(cocktail.id) %></h3>
+      <p><%= link_to 'More is better', new_cocktail_path %>
+      <p><%= link_to 'add doses', new_cocktail_dose_path(cocktail.id) %></p>
+
+    </li>
+  <% end %>
