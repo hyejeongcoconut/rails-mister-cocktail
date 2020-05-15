@@ -1,8 +1,7 @@
 <h1>Who want some cocktails?</h1>
+<div class="red">
 <h2> ** today's special ** </h2>
-<p>
-<span id="banner-typed-text"></span>
-</p>
+</div>
 <% @cocktails.each do |cocktail| %>
     <li>
       <h3><%= link_to cocktail.name, cocktail_path(cocktail.id) %></h3>
@@ -11,3 +10,4 @@
 
     </li>
   <% end %>
+
