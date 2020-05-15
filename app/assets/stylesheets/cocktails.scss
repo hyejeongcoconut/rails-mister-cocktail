@@ -1,18 +1,25 @@
 // Place all the styles related to the cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-$blue: #5064B4;
+$blue: #864E55;
 
 body {
-  font-family: Helvetica;
-  background-color: $blue;
+  text: black;
+  background: #56233E;
+  background: -moz-linear-gradient(left, #56233E 0%, #CB3543 50%, #753A4A 100%);
+  background: -webkit-linear-gradient(left, #56233E 0%, #CB3543 50%, #753A4A 100%);
+  background: linear-gradient(to right, #56233E 0%, #CB3543 50%, #753A4A 100%);
   text-align: center;
+  border: 3px solid #0F060B;
+   margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 h1 {
   text-align: center;
 }
 
-.red {
+.container {
 
 }
